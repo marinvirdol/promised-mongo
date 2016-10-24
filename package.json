@@ -1,6 +1,6 @@
 {
-  "name": "promised-mongo",
-  "description": "Easy to use module that implements the mongo api and supports promises",
+  "name": "mongo-babel-promises",
+  "description": "Easy to use module that implements the mongo api and supports corejs/BabelJS promises instead of Bluebird",
   "keywords": [
     "mongo",
     "db",
@@ -9,15 +9,14 @@
     "q"
   ],
   "license": "MIT",
-  "version": "1.2.0",
-  "repository": "git://github.com/gordonmleigh/promised-mongo.git",
-  "author": "Gordon Mackenzie-Leigh <gordon@stugo.co.uk>",
+  "version": "1.0.0",
+  "repository": "git://github.com:marinvirdol/promised-mongo.git",
+  "author": "Marin Virdol <m.virdol@gmail.com>",
   "contributors": [
-    "Gordon Mackenzie-Leigh <gordon@stugo.co.uk>"
+    "Marin Virdol <m.virdol@gmail.com>"
   ],
   "dependencies": {
     "babel-runtime": "^5.5.5",
-    "bluebird": "^2.9.27",
     "harmony-proxy": "0.0.2",
     "lodash": "^3.9.3",
     "mongodb-core": "^1.1.33",
@@ -34,6 +33,7 @@
     "grunt": "^0.4.5",
     "grunt-babel": "^5.0.1",
     "grunt-contrib-clean": "^0.6.0",
-    "load-grunt-tasks": "^3.2.0"
+    "load-grunt-tasks": "^3.2.0",
+    "bluebird": "^2.9.27"
   }
 }
